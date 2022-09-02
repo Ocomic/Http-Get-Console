@@ -1,0 +1,17 @@
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\bin\Debug\net6.0\Http-Get-Console.exe
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\bin\Debug\net6.0\Http-Get-Console.deps.json
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\bin\Debug\net6.0\Http-Get-Console.runtimeconfig.json
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\bin\Debug\net6.0\Http-Get-Console.dll
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\bin\Debug\net6.0\Http-Get-Console.pdb
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.csproj.AssemblyReference.cache
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.AssemblyInfoInputs.cache
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.AssemblyInfo.cs
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.csproj.CoreCompileInputs.cache
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.dll
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\refint\Http-Get-Console.dll
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.pdb
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.genruntimeconfig.cache
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\ref\Http-Get-Console.dll
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\thebi\source\repos\Http-Get-Console\Http-Get-Console\obj\Debug\net6.0\Http-Get-Console.csproj.CopyComplete

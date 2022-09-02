@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IEvGV4zptmM6Ll6QqZ+WXNAf7dPqA6JnmZbDhtRtIZ+/OwFY2ayPTns+72ZATt6KEf8kBPafQrttnL555O7vHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thebi\\source\\repos\\Http-Get-Console\\Http-Get-Console\\Http-Get-Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thebi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
