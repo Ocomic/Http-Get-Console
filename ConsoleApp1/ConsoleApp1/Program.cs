@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-// Install-Package Newtonsoft.Json -Version 12.0.3
+// step1. Package Manager install: Install-Package Newtonsoft.Json -Version 12.0.3
 
 
 using System;
@@ -21,7 +21,9 @@ namespace ConsoleApp1
         {
 
             dynamic response = await program.makeRequest("https://data-asg.goldprice.org/" + userInput + "/USD");
-            Console.WriteLine(response);
+            Console.WriteLine(response); 
+            //change (response) to (response.objectname) to enter a json object from
+            //json "objectname" has to be changed to the name of the object in the file
 
         }
 
