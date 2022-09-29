@@ -1,0 +1,36 @@
+Dies ist eine automatisch generierte Nachricht des Postfix E-Mail-Dienstes.
+Dieser Dienst wird auf dem Server mailgw2.test-gmbh.de betrieben und teilt Ihnen
+folgendes mit:
+
+
+    Ihre Nachricht konnte an einen oder mehrere Empfaenger nicht zugestellt
+    werden. Ein Problem-Bericht, sowie Ihre uspruengliche Nachricht wurden an
+    das Ende dieser Nachricht angehaengt.
+
+
+Fuer weitere Hilfe kontaktieren Sie bitte den fuer Sie zustaendigen
+<postmaster@test.de>.
+
+Senden Sie dazu den an diese E-Mail angefuegten Problem-Bericht mit.
+Den Inhalt Ihrer urspruenglichen Nachricht koennen Sie - zum Schutz Ihrer
+Privatsphaere - entfernen; er ist fuer eine Fehler-Diagnose nicht zwingend
+notwendig.
+
+                   Der Postfix E-Mail-Dienst
+
+                        INTERNATIONAL VERSION
+
+This is the Postfix program at host mailgw2.test-gmbh.de.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to <postmaster@test.de>
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+
+<gabriele.test@test.de>: host mx-eu.mail.am0.testdns.net[188.125.72.74]
+    said: 552 1 Requested mail action aborted, mailbox not found (in reply to
+    end of DATA command)
