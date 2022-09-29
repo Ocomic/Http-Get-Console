@@ -20,7 +20,7 @@ namespace ConsoleApp1
         public static async Task Main(string[] args)
         {
 
-            dynamic response = await program.makeRequest("https://data-asg.goldprice.org/" + userInput + "/USD");
+            dynamic response = await program.makeRequest("https://github.com/Ocomic/Http-Get-Console/blob/main/Testdata");
             Console.WriteLine(response); 
             //change (response) to (response.objectname) to enter a json object from
             //json "objectname" has to be changed to the name of the object in the file
