@@ -7,6 +7,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace ConsoleApp1
 {
@@ -35,8 +36,14 @@ namespace ConsoleApp1
             var result = await client.GetStringAsync(url);
             dynamic json = JsonConvert.DeserializeObject<dynamic>(result);
             return json;
+                       
+            
 
         }
+
+        
+
+
 
     }
 
