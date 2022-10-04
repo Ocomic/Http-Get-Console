@@ -9,17 +9,5 @@
       "fileSize": 1376,
       "contentPartId": "0"
     },
-    {
-      "fileName": "Delivery report",
-      "contentType": "message/delivery-status",
-      "fileSize": 466,
-      "contentPartId": "0.1"
-    },
-    {
-      "fileName": "Undelivered Message Headers",
-      "contentType": "text/rfc822-headers",
-      "fileSize": 1647,
-      "contentPartId": "0.2"
-    }
-  ]
+   ]
 }
