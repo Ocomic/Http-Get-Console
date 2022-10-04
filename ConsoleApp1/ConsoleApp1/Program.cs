@@ -21,7 +21,7 @@ namespace ConsoleApp1
         public static async Task Main(string[] args)
         {
 
-            dynamic response = await program.makeRequest("https://my-json-server.typicode.com/typicode/demo");
+            dynamic response = await program.makeRequest("https://my-json-server.typicode.com/Ocomic/Http-Get-Console/db");
             Console.WriteLine(response); 
             //change (response) to (response.objectname) to enter a json object from
             //json "objectname" has to be changed to the name of the object in the file
