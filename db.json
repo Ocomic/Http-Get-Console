@@ -1,14 +1,22 @@
 {
-  "subject": "Rueckgabe nicht zustellbarer Nachricht an Absender",
-  "content": "Ihre Nachricht konnte an einen oder mehrere Empfaenger nicht zugestellt werden.",
-  "contentType": "text/plain;charset=utf-8",
-  "attachments": [
-    {
-      "fileName": "Notification",
-      "contentType": "text/plain; charset=iso-8859-1",
-      "fileSize": 1376,
-      "contentPartId": "0"
-    },
-    
-  ]
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
 }
