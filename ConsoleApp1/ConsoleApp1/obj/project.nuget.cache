@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JynuwDm6P5ZR4LOUxR8Qn8z5+Yn1acCxGCCy6r2PNeASNwl9wJZZ6orZITi0+1iKRFawwv8xtrBNOvFu8qKhYg==",
+  "dgSpecHash": "ygI9/3ufKTtTva+Gcy6Zi+8rUQ1E6bEBY9oozeJU7+l6ORr3cs305XI7osqsnWxgLGwWrkvDvkhO/pzY9z5OlQ==",
   "success": true,
   "projectFilePath": "F:\\Programme\\Git\\Http-Get-Console\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thebi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\thebi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

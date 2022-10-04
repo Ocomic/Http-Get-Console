@@ -20,9 +20,17 @@ namespace ConsoleApp1
         //get Json response from http url  
         public static async Task Main(string[] args)
         {
+            try
+            {
+                dynamic response = await program.makeRequest("https://raw.githubusercontent.com/Ocomic/Http-Get-Console/main/Testdata/70563885.json");
+                Console.WriteLine(response);
+            }
+            
+            catch (Exception e)
+            {
 
-            dynamic response = await program.makeRequest("https://my-json-server.typicode.com/Ocomic/Http-Get-Console/db");
-            Console.WriteLine(response); 
+                Console.WriteLine(e.Message);
+            }
             //change (response) to (response.objectname) to enter a json object from
             //json "objectname" has to be changed to the name of the object in the file
 
@@ -31,11 +39,21 @@ namespace ConsoleApp1
         //use url source to get json and await until task is finished
         public static async Task<dynamic> makeRequest(string url)
         {
+
             using var client = new HttpClient();
 
-            var result = await client.GetStringAsync(url);
-            dynamic json = JsonConvert.DeserializeObject<dynamic>(result);
-            return json;
+            try
+            {
+                var result = await client.GetStringAsync(url);
+                dynamic json = JsonConvert.DeserializeObject<dynamic>(result);
+                return json;
+
+            }
+            
+            finally
+            {
+                client.Dispose();
+            }
                        
             
 
