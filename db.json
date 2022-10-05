@@ -1,9 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "mail": [
+    {
+      "subject": "Rueckgabe nicht zustellbarer Nachricht an Absender",
+      "content": "Dies ist eine automatisch generierte Nachricht des Postfix E-Mail-Dienstes.",
+      "contentType": "text/plain;charset=utf-8"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "attachments": [
+    {
+      "fileName": "Notification",
+      "contentType": "text/plain; charset=iso-8859-1",
+      "fileSize": 1376,
+      "contentPartId": "0"
+    },
+    {
+      "fileName": "Delivery report",
+      "contentType": "message/delivery-status",
+      "fileSize": 466,
+      "contentPartId": "0.1"
+    },
+    {
+      "fileName": "Undelivered Message Headers",
+      "contentType": "text/rfc822-headers",
+      "fileSize": 1647,
+      "contentPartId": "0.2"
+    }
+  ]
 }
