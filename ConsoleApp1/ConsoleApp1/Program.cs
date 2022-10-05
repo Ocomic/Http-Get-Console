@@ -15,14 +15,14 @@ namespace ConsoleApp1
     class program
     {
         //insert string in url of makeRequest
-        public static string userInput = "dbXRates";
+        public static string userInput = "db";
 
         //get Json response from http url  
         public static async Task Main(string[] args)
         {
             try
             {
-                dynamic response = await program.makeRequest("https://raw.githubusercontent.com/Ocomic/Http-Get-Console/main/Testdata/70563885.json");
+                dynamic response = await program.makeRequest("https://my-json-server.typicode.com/Ocomic/Http-Get-Console/" +userInput);
                 Console.WriteLine(response);
             }
             
