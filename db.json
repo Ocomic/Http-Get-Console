@@ -1,9 +1,9 @@
-
- {
-  "mail": {
-    "subject": "Rueckgabe nicht zustellbarer Nachricht an Absender",
-    "content": "Dies ist eine automatisch generierte Nachricht des Postfix E-Mail-Dienstes.",
-    "contentType": "text/plain;charset=utf-8",
-    
-  }
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
 }
