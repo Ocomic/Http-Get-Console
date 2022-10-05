@@ -1,7 +1,11 @@
 {
-  "subject": "Rueckgabe nicht zustellbarer Nachricht an Absender",
-  "content": "Dies ist eine automatisch generierte Nachricht des Postfix E-Mail-Dienstes.",
-  "contentType": "text/plain;charset=utf-8",
+  "mail": [
+    {
+      "subject": "Rueckgabe nicht zustellbarer Nachricht an Absender",
+      "content": "Dies ist eine automatisch generierte Nachricht des Postfix E-Mail-Dienstes.",
+      "contentType": "text/plain;charset=utf-8"
+    }
+  ],
   "attachments": [
     {
       "fileName": "Notification",
