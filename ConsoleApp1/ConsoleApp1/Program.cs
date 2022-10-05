@@ -4,7 +4,9 @@
 
 
 using System;
+using System.Data;
 using System.Net.Http;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -12,25 +14,34 @@ using Newtonsoft.Json.Linq;
 namespace ConsoleApp1
 {
     //program for getting json file from url source
-    class program
+
+   /* class program
     {
         //insert string in url of makeRequest
         public static string userInput = "db";
 
-        //get Json response from http url  
+       //get Json response from http url  
         public static async Task Main(string[] args)
         {
             try
             {
-                dynamic response = await program.makeRequest("https://my-json-server.typicode.com/Ocomic/Http-Get-Console/" +userInput);
+                dynamic response = await program.makeRequest("https://my-json-server.typicode.com/Ocomic/Http-Get-Console/" + userInput);
                 Console.WriteLine(response);
+
+
+                
+
+
             }
-            
+
             catch (Exception e)
             {
 
                 Console.WriteLine(e.Message);
             }
+            
+
+
             //change (response) to (response.objectname) to enter a json object from
             //json "objectname" has to be changed to the name of the object in the file
 
@@ -46,16 +57,15 @@ namespace ConsoleApp1
             {
                 var result = await client.GetStringAsync(url);
                 dynamic json = JsonConvert.DeserializeObject<dynamic>(result);
-                return json;
+                return json;            
 
             }
-            
+
             finally
             {
                 client.Dispose();
             }
-                       
-            
+
 
         }
 
@@ -63,6 +73,59 @@ namespace ConsoleApp1
 
 
 
+
+
     }
+    */
+       
+   class program
+   {
+
+       public static async Task Main(string[] args)
+       {
+           string userInput = "db";
+           string url = "https://my-json-server.typicode.com/Ocomic/Http-Get-Console/" +userInput;
+
+           HttpClient client = new HttpClient();
+
+           try
+           {
+               var result = await client.GetAsync(url);
+               string jsonResponse = await result.Content.ReadAsStringAsync();
+
+               Console.WriteLine(jsonResponse);
+
+                var test = JObject.Parse(jsonResponse);
+                JArray items = (JArray)test["attachments"];
+                int length = items.Count;
+
+                Console.WriteLine(length);
+
+                
+
+
+            }
+
+           catch (Exception e)
+           {
+               Console.WriteLine(e.Message);
+           }
+
+           finally
+           {
+               client.Dispose();
+           }
+
+
+
+
+
+       }
+    }
+   
+
+
 
 }
+
+
