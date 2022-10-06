@@ -101,7 +101,24 @@ namespace ConsoleApp1
 
                 Console.WriteLine(length);
 
-                
+
+                // count attachments -1 because attachment 1 is not needed, because it is just the text of the message
+                int X = length;
+                int[] nums2 = Enumerable.Range(1, X -1).ToArray();
+
+
+
+
+                foreach (int i in nums2)
+                {
+                    string si = "Test" + i;
+                    Console.WriteLine(si);
+                }
+                Console.ReadLine();
+
+
+
+
 
 
             }
@@ -120,12 +137,15 @@ namespace ConsoleApp1
 
 
 
+
+
        }
     }
-   
 
-
-
+    
+    
 }
+
+
 
 
